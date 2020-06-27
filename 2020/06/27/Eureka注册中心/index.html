@@ -4,7 +4,7 @@
 
 <head>
   
-  <title>Mitaki</title>
+  <title>Eureka注册中心 - Mitaki</title>
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -12,15 +12,22 @@
   
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Mitaki">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Eureka注册中心1.1 认识Eureka 问题分析  以前，服务的提供者提供服务时，调用者需记录服务提供者的地址。 服务较少的时候并不觉得有什么，但是在现在日益复杂的互联网环境，一个项目会拆分出十几，甚至数十个微服务。此时如果还人为管理地址，不仅&#x3D;&#x3D;开发困难&#x3D;&#x3D;，将来测试、发布上线都会非常麻烦，这与DevOps的思想是背道而驰的。  网约车  以前，人们需要自己叫车，与司机沟通，麻烦！甚至可能">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Eureka注册中心">
+<meta property="og:url" content="http://yoursite.com/2020/06/27/Eureka%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/index.html">
 <meta property="og:site_name" content="Mitaki">
+<meta property="og:description" content="Eureka注册中心1.1 认识Eureka 问题分析  以前，服务的提供者提供服务时，调用者需记录服务提供者的地址。 服务较少的时候并不觉得有什么，但是在现在日益复杂的互联网环境，一个项目会拆分出十几，甚至数十个微服务。此时如果还人为管理地址，不仅&#x3D;&#x3D;开发困难&#x3D;&#x3D;，将来测试、发布上线都会非常麻烦，这与DevOps的思想是背道而驰的。  网约车  以前，人们需要自己叫车，与司机沟通，麻烦！甚至可能">
+<meta property="og:image" content="c:/Users/Abon/AppData/Roaming/Typora/typora-user-images/1593150812243.png">
+<meta property="og:image" content="c:/Users/Abon/AppData/Roaming/Typora/typora-user-images/1593152703921.png">
+<meta property="article:published_time" content="2020-06-27T12:37:17.669Z">
+<meta property="article:modified_time" content="2020-06-26T06:41:01.877Z">
 <meta property="article:author" content="Mittaki">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/Abon/AppData/Roaming/Typora/typora-user-images/1593150812243.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
   
-  <!--<link rel="stylesheet" href="/css/style.css?v=1593261615179">-->
+  <!--<link rel="stylesheet" href="/css/style.css?v=1593261615165">-->
 <meta name="generator" content="Hexo 4.2.1"></head>
 
 <body class="mdui-drawer-body-left">
@@ -118,52 +125,26 @@
   </div>
   <div id="nexmoe-content">
     <div class="nexmoe-primary">
-        <section class="nexmoe-posts">
+        <div class="nexmoe-post">
+  
+      <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+          <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="Eureka注册中心" class="lazyload">
+          <h1>Eureka注册中心</h1>
+      </div>
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年06月27日</a>
+    <a><i class="nexmoefont icon-areachart"></i>1,996 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 8 分钟</a>
+</div>
+
+  <div class="nexmoe-post-right">
     
-    <div class="nexmoe-post">
-        <a href="/2020/07/13/PY.html/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 62.5%;"> 
-                    <img data-src="https://i.loli.net/2019/07/21/5d33d5dc1531213134.png" data-sizes="auto" alt="这是一个标题" class="lazyload">
-                    <h1>这是一个标题</h1>
-                </div>
-            
-        </a>
+  </div>
 
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2020年07月13日</a>
-            <a><i class="nexmoefont icon-areachart"></i>25 字</a>
-            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
-        </div>
-
-        <article>
-            
-                <p>测试页面</p>
-<p><a href="https://www.chainwon.com/" target="_blank" rel="noopener" title="轻惋导航"><img data-sizes="auto" data-src="%E5%9C%B0%E5%9D%80" alt="轻惋导航" class="lazyload"></a><br>copyright: ‘<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc/3.0/cn/deed.zh" target="_blank">CC BY-NC 3.0 CN</a> 协议进行许可’</p>
-
-            
-        </article>
-    </div>
-    
-    <div class="nexmoe-post">
-        <a href="/2020/06/27/Eureka%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
-                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="Eureka注册中心" class="lazyload">
-                    <h1>Eureka注册中心</h1>
-                </div>
-            
-        </a>
-
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2020年06月27日</a>
-            <a><i class="nexmoefont icon-areachart"></i>1,996 字</a>
-            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 8 分钟</a>
-        </div>
-
-        <article>
-            
-                <h1 id="Eureka注册中心"><a href="#Eureka注册中心" class="headerlink" title="Eureka注册中心"></a>Eureka注册中心</h1><h2 id="1-1-认识Eureka"><a href="#1-1-认识Eureka" class="headerlink" title="1.1 认识Eureka"></a>1.1 认识Eureka</h2><blockquote>
+  <article>
+    <h1 id="Eureka注册中心"><a href="#Eureka注册中心" class="headerlink" title="Eureka注册中心"></a>Eureka注册中心</h1><h2 id="1-1-认识Eureka"><a href="#1-1-认识Eureka" class="headerlink" title="1.1 认识Eureka"></a>1.1 认识Eureka</h2><blockquote>
 <p>问题分析</p>
 </blockquote>
 <p>以前，服务的提供者提供服务时，调用者需记录服务提供者的地址。</p>
@@ -332,12 +313,44 @@ eureka:
     enable-self-preservation: false # 关闭自我保护模式（缺省为打开）
     eviction-interval-timer-in-ms: 1000 # 扫描失效服务的间隔时间（缺省为60*1000ms）</code></pre></blockquote>
 
-            
-        </article>
-    </div>
-    
-</section>
+  </article>
 
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    
+      
+  <div class="nexmoe-post-copyright">
+    <strong>Author：</strong>Mittaki<br>
+    <strong>Link：</strong><a href="http://yoursite.com/2020/06/27/Eureka%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/" title="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;06&#x2F;27&#x2F;Eureka%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;06&#x2F;27&#x2F;Eureka%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83&#x2F;</a><br>
+    
+      <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+    
+  </div>
+
+
+    
+    <section class="nexmoe-comment">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.css">
+<div id="gitalk"></div>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '80b2453b6d5f37ad6225',
+        clientSecret: '43e99fa852795c9a7b3eb924b2558c64b84bbdeb',
+        id: window.location.pathname,
+        repo: 'nexmoe.github.io',
+        owner: 'nexmoe',
+        admin: 'nexmoe'
+    })
+    gitalk.render('gitalk')
+</script>
+</section>
+  </div>
+</div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
@@ -347,7 +360,7 @@ eureka:
     <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
 
 
-<script src="/js/app.js?v=1593261615183"></script>
+<script src="/js/app.js?v=1593261615167"></script>
   
 
 
